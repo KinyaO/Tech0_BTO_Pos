@@ -1,0 +1,72 @@
+/* チャットエリアの全体的なスタイリング */
+.chatArea {
+    background-color: #add8e6; /* 全面水色の背景を設定 */
+    padding: 20px; /* 内側の余白を設定 */
+    border-radius: 10px; /* 角の丸みを追加 */
+  }
+  
+  .messagesList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .messageItem {
+    margin-bottom: 8px;
+  }
+  
+  .message {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 5px;
+    max-width: 60%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* 影をより強調 */
+    border: 1px solid #aaa; /* 吹き出しにボーダーを追加 */
+  }
+  
+  .client {
+    background-color: #007bff;
+    color: white;
+    text-align: right;
+    border-bottom-right-radius: 0; /* 右下の角の丸みをなくし、吹き出し効果を強調 */
+  }
+  
+  .server {
+    background-color: #f1f1f1;
+    color: #333;
+    text-align: left;
+    border-bottom-left-radius: 0; /* 左下の角の丸みをなくし、吹き出し効果を強調 */
+  }
+  .messageInput {
+    width: 80%;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    background-color: #f2f2f2; /* 入力フィールドの背景色を薄いグレーに変更 */
+    color: #333; /* 入力フォントの色をダークグレーに変更 */
+}
+
+  .messageInput {
+    width: 80%;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    background-color: #ffffff; /* 入力フィールドの背景色を明確に指定 */
+  }
+
+  .messageInput:focus {
+    background-color: #e8e8e8; /* フォーカス時の背景色をより明るいグレーに変更 */
+    outline: none; /* デフォルトのアウトラインを削除 */
+}
+
+  .sendButton {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
